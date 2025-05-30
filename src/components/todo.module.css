@@ -1,0 +1,39 @@
+.add_icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: var(--bright_blue);
+}
+
+.container {
+  padding: 1.3rem;
+  border-bottom: 1px solid var(--light_grayish_blue);
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: centers;
+}
+
+.content {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.unchecked {
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--very_light_grayish_blue);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.unchecked:hover {
+  border: 1px solid var(--light_grayish_blue);
+}
+
+.light_button {
+  background-color: white;
+}

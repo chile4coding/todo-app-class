@@ -1,0 +1,49 @@
+.main_container {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  justify-content: space-around;
+}
+.input_container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.input {
+  line-height: 2rem;
+
+  font-weight: 400;
+  padding: 1rem 3.8rem;
+  outline: none;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  font-family: 1.1rem;
+}
+
+.add {
+  position: relative;
+}
+
+.add_icon {
+  position: absolute;
+  left: 20px;
+  top: 30%;
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--very_light_grayish_blue);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.add_icon:hover {
+  border: 1px solid var(--light_grayish_blue);
+}
+
+.light_button {
+  background-color: white;
+}
